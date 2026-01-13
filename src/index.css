@@ -1,0 +1,26 @@
+/* src/index.css - La Base del Diseño */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+:root {
+  --bg-dark: #0f172a;       /* Fondo profundo */
+  --card-glass: rgba(30, 41, 59, 0.7); /* Efecto vidrio */
+  --neon-cyan: #06b6d4;     /* Azul Hacker */
+  --neon-red: #ef4444;      /* Rojo Alerta */
+  --neon-green: #22c55e;    /* Verde Seguro */
+  --text-main: #f8fafc;     /* Blanco */
+  --text-dim: #94a3b8;      /* Gris suave */
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  /* Fondo con degradado sutil tipo radar */
+  background-image: radial-gradient(circle at 50% 0%, #1e293b 0%, #0f172a 70%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}

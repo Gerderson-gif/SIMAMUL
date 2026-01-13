@@ -1,0 +1,22 @@
+# --- IA & MODELOS (VITAL) ---
+# Evita subir el "cerebro" pesado a GitHub
+Modelo_Entrenado/
+*.safetensors
+*.bin
+*.pth
+*.onnx
+
+# --- PYTHON BACKEND ---
+# Archivos temporales y entornos virtuales
+__pycache__/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# --- ARCHIVOS TEMPORALES DE ANÁLISIS ---
+# Si tu script genera imágenes temporales al procesar video
+temp_frames/
+frame_*.jpgnode_modules/ 
+.env 
+modelo_entrenado/ 
